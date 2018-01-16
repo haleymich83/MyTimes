@@ -4,6 +4,13 @@ header{
   font-weight: bold;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid black;
+  z-index: 5;
+  position: fixed;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  margin-top: -10px;
 }
 
 div{
@@ -13,18 +20,21 @@ header span{
   color: MediumAquamarine;
 }
 
-header nav{
-  display: block;
-}
 nav span{
-  padding: 10px;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.sidespan{
+  margin-right: 30px;
 }
 
 .logo{
   display: flex;
   align-items: center;
-  padding-left: 20px;
-  width: 1325px;
+  padding-left: 30px;
+  width: 1200px;
+  flex-grow: 1;
 }
 
 .logo span{
@@ -35,6 +45,7 @@ nav span{
   display: flex;
   justify-content: center;
   margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .large{
