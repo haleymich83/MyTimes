@@ -80,6 +80,24 @@ nav span{
   margin-right: 32px;
 }
 
+.small h2{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.news-bites .bites{
+  display: block;
+  padding: 11px 20px;
+  margin: 0;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
 .img-content{
   font-family: Georgia;
   font-weight: bold;
