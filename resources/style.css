@@ -48,6 +48,17 @@ nav span{
   padding-top: 116px;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+}
+
 .large{
   display: flex;
   width: 630px;
@@ -139,4 +150,27 @@ nav span{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.footlogo{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+.footer nav{
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.footer nav, .trademark{
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.trademark {
+  display: block;
 }
