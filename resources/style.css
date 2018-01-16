@@ -54,6 +54,17 @@ nav span{
   flex-direction: column;
   margin-right: 32px;
 }
+.articles{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 .medium{
   display: flex;
